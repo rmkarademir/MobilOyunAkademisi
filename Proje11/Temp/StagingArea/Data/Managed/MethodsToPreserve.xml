@@ -1,0 +1,101 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameScreenManager">
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="CheckCharacter"/>
+			<method name="ExitGame"/>
+			<method name="ExitGame"/>
+			<method name="NewGame"/>
+			<method name="NewGame"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="PlayerManager">
+			<method name="buttonWord1Click"/>
+			<method name="buttonWord1Click"/>
+			<method name="buttonWord2Click"/>
+			<method name="buttonWord2Click"/>
+			<method name="buttonWord3Click"/>
+			<method name="buttonWord3Click"/>
+			<method name="CreateWord"/>
+			<method name="CreateWord"/>
+			<method name="GoGame"/>
+			<method name="GoGame"/>
+			<method name="PrintWord"/>
+			<method name="PrintWord"/>
+			<method name="PrintWord"/>
+		</type>
+		<type fullname="StartScreenManager">
+			<method name="OnCreateRoomButton"/>
+			<method name="OnCreateRoomButton"/>
+			<method name="OnJoinRoomButton"/>
+			<method name="OnJoinRoomButton"/>
+			<method name="OnLeaveRoomButton"/>
+			<method name="OnLeaveRoomButton"/>
+			<method name="OnPlayerNameUpdate"/>
+			<method name="OnPlayerNameUpdate"/>
+			<method name="OnStartGameButton"/>
+			<method name="OnStartGameButton"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

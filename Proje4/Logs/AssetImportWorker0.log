@@ -1,0 +1,634 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity Projeler/ErzurumMobilOyunGelistirme/MobilOyunAkademisi/Proje4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64094
+Successfully changed project path to: C:/Unity Projeler/ErzurumMobilOyunGelistirme/MobilOyunAkademisi/Proje4
+C:/Unity Projeler/ErzurumMobilOyunGelistirme/MobilOyunAkademisi/Proje4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42544] Host "[IP] 172.24.240.1 [Port] 0 [Flags] 2 [Guid] 3665595249 [EditorId] 3665595249 [Version] 1048832 [Id] WindowsEditor(7,rust) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [42544] Host "[IP] 172.24.240.1 [Port] 0 [Flags] 2 [Guid] 3665595249 [EditorId] 3665595249 [Version] 1048832 [Id] WindowsEditor(7,rust) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 12.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projeler/ErzurumMobilOyunGelistirme/MobilOyunAkademisi/Proje4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007630 seconds.
+- Loaded All Assemblies, in  0.253 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projeler\ErzurumMobilOyunGelistirme\MobilOyunAkademisi\Proje4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projeler\ErzurumMobilOyunGelistirme\MobilOyunAkademisi\Proje4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3260 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (129.7 KB). Loaded Objects now: 3728.
+Memory consumption went from 125.1 MB to 124.9 MB.
+Total: 3.026600 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.504500 ms  DeleteObjects: 0.115100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 900156.527298 seconds.
+  path: Assets/Prefabs/Materials
+  artifactKey: Guid(4d7be8b8dfd8d854895b60e2b72edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials using Guid(4d7be8b8dfd8d854895b60e2b72edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b565e0ca63b3f283eefb79d95e587') in 0.002820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.562530 seconds.
+  path: Assets/Prefabs/AKINCI.fbx
+  artifactKey: Guid(e797b6ae374dc9e4f82f121788dbbaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AKINCI.fbx using Guid(e797b6ae374dc9e4f82f121788dbbaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd1b49bad2797624d72065cf3a22281') in 0.667347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 815
+========================================================================
+Received Import Request.
+  Time since last request: 67.007829 seconds.
+  path: Assets/Prefabs/AKINCI.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AKINCI.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2033829b7d0d07c8768a8933761260') in 0.049170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 351.794991 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429617d4f31ab80c6aceec2d0c9300c3') in 0.067339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 11.102539 seconds.
+  path: Assets/Simple city plain/Mesh/bench.fbx
+  artifactKey: Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/bench.fbx using Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c983b8c4a823e15619a14a5b65b12') in 0.013421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.159880 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f24873f29e17539289a1017bf62cd1a') in 0.047653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 124.911217 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca69bcaa78d083213893a69184a7aa1e') in 0.040908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 0.551040 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a185edd494d99b2a63724a1a4f69fa39') in 0.034292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.363690 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8a436407a977c9af8b1904f7707bd1') in 0.036313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.789701 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfe85f24eb1620025206ed785a0eba2') in 0.036621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 6.201139 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c194f9a0e718743674609c454f901f13') in 0.037255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 2.990640 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614e9a1fdbe344c3d19a4c3247897275') in 0.036341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 35.269141 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb5b37adff78e0e4fd42741d5731719') in 0.038398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 3.790238 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de62bd096a8e1f57c789fb856266df') in 0.037340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.777143 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1309b2261e11724583f29e25ae38195f') in 0.035855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 8.461427 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035e967dd050888d5a0f620f71691eeb') in 0.035895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.178952 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc97f198ac6a4d6c0d8b3b175d83d1') in 0.034267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 9.448289 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378edf3fe048e5ed6f8e0e025a15f0c3') in 0.038053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 5.005948 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e9b7595c1f291515cbe306b17a736') in 0.038123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 3.980203 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba94dcae822e120d6bb19e0d27d65e3') in 0.032434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 7.023675 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4806790b0ec8c5e3e3c826aa5ecfcdd') in 0.036016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.578838 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94970ac09aeca72e5b8af78dbdd3600') in 0.037190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.375478 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec3d96273533eb2c0e395e9fe31200') in 0.037397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.582915 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5c28ef727d6b240a6269ce966dafd4') in 0.033955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.582772 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89f6174bdd289514282e90a0000c6f0') in 0.034362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.984178 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b67319f6d130c4654f23f2b675ab1f') in 0.036439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 6.223602 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07658e69d4a9ccd9586c1800f637788c') in 0.037905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.766585 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4c0c4002ff469e158315a76a33b359') in 0.038344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 3.214326 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f6a4f798372efda8c6e953d1cdf964') in 0.036968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 6.832970 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17674b60d199e7acc4019f58a515de14') in 0.036841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.594374 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27767d662f295e8ed2c252c75dac3879') in 0.035720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 9.863961 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b993e3e4f723fbfda684bac214549cc') in 0.036754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 13.911822 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ef1292685421d533ca3a7a896764fa') in 0.039390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.973586 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de6fc131cfca744e21a79372f126eda') in 0.039348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.583090 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d870c8cb624afe71484a3750aab31e1') in 0.039568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 7.846709 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3125902335a8c769b033d7679c876d7e') in 0.034647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.601818 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a5339eb52d558c3c0ae28b48df0256') in 0.035793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 9.022147 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35459e3b747c6f4abc92eeeb9532d84a') in 0.035274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 6.893238 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1785c44a8a13f9df7881c97e3c8c9b8') in 0.036791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 1.175559 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6c5fe12e5d740b1b1cbe216a51da6d') in 0.033555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 11.663770 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566865934d2722a26d08fc03845c70d') in 0.036370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 8.437394 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547d90f2ec537024557b219863ba273c') in 0.038198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 9.850291 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e537fa7d52c308ad7d0c8efe768ca536') in 0.039144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 5.186484 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ed924d93972928edbdfd618dbe6394') in 0.038360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 11.250275 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b526445b5a16859b601d796130779c') in 0.041104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 16.139259 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2043d915df85ca9892b62d284be2ae') in 0.038122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 10.849582 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efcd033ce650105f3ff1079086a2a47') in 0.034567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Import Request.
+  Time since last request: 21.405181 seconds.
+  path: Assets/Prefabs/Akıncı IHA.prefab
+  artifactKey: Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Akıncı IHA.prefab using Guid(d32796311dc3fbb40af07ee4fd9304d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4741f9623a23e3ca7a5a3a04c71e382') in 0.037419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1502
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projeler\ErzurumMobilOyunGelistirme\MobilOyunAkademisi\Proje4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projeler\ErzurumMobilOyunGelistirme\MobilOyunAkademisi\Proje4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.762 seconds
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.859 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (556ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (101.8 KB). Loaded Objects now: 3787.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 3.359000 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.128500 ms MarkObjects: 2.872300 ms  DeleteObjects: 0.051500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
